@@ -94,7 +94,7 @@ const Lobby = ({ setLang }) => {
       <S.LoadingOverlay loading={loading}>
         <S.LobbyContainer>
           <S.HeaderContainer>
-            <S.Title>WORDOPIA</S.Title>
+            <S.Title>Joguinho sem nome ainda</S.Title>
             <S.FlagsContainer>
               <BrazilIcon
                 onClick={() => handleFlagsClick('pt-BR')}

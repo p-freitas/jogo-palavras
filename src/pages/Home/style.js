@@ -123,7 +123,7 @@ export const TabletopContainer = styled.div`
   width: 85%;
 
   .current {
-    color: green;
+    color: red;
     ${(props) => (props.animateJump ? jumpAnimationCss : "")};
   }
 

@@ -660,7 +660,7 @@ const Home = () => {
         setOpen={setOpenModalServerError}
       />
       <S.TabletopContainer animateJump={animateJump}>
-        <S.Title>Jogo sem nome ainda</S.Title>
+        <S.Title>Joguinho sem nome ainda</S.Title>
         {localStorage.getItem(roomId) === null && (
           <ModalPlayerName
             handlePlayerNameSubmit={handlePlayerNameSubmit}
