@@ -68,7 +68,7 @@ const Lobby = ({ setLang }) => {
   const handleCreateRoomButton = letters => {
     socketRef.current.emit(
       'createRoom',
-      timerSelectValue?.value !== undefined ? timerSelectValue?.value : 10,
+      timerSelectValue?.value !== undefined ? timerSelectValue?.value : 60,
       roundsSelectValue?.value !== undefined ? roundsSelectValue?.value : 3,
       letters,
       defaultThemesButtonClick,
